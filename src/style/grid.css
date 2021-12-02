@@ -28,6 +28,15 @@
         padding-top: 25px;
         padding-bottom: 0;
     }
+    .client-content {
+        background: var(--Blue);
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 267px;
+        display: flex;
+        margin-right: 50px !important;
+    }
 }
 @media (max-width: 992px) {
     .container{
@@ -44,6 +53,38 @@
     .button--flex{
         left: 69%;
     }
+    .slick-prev,
+    .slick-next{
+        display: none !important;
+    }
+    .client-name {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: #272848;
+        font-family: var(--Poppins-SemiBold);
+        padding-right: 20px;
+    }
+    .client-content {
+        background: var(--Blue);
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 195px;
+        display: flex;
+        /* margin-right: 50px !important; */
+    }
+    .client-description {
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        font-family: var(--Poppins-Regular);
+        max-width: 211px;
+        width: 100%;
+        text-align: center;
+        padding: 13px 0px;
+    }
+    
 }
 @media (max-width: 768px) {
     .container{
@@ -133,6 +174,20 @@
     .button--flex{
         left: 60%;
     }
+    .slick-prev,
+    .slick-next{
+        display: none !important;
+    }
+    .client-content {
+        background: var(--Blue);
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 294px;
+        display: flex;
+        margin-right: 50px !important;
+    }
+    
 }
 @media (max-width: 576px) {
     .container{
@@ -212,6 +267,33 @@
     .grid-left{
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .client-name {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 21px;
+        color: #272848;
+        font-family: var(--Poppins-SemiBold);
+        padding-right: 17px;
+    }
+    .client-description {
+        font-size: 11px;
+        line-height: 18px;
+        color: #FFFFFF;
+        font-family: var(--Poppins-Regular);
+        max-width: 261px;
+        width: 100%;
+        text-align: center;
+        padding: 17px 0px;
+    }
+    .client-content {
+        background: var(--Blue);
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 182px;
+        display: flex;
+        margin-right: 50px !important;
     }
 
 }

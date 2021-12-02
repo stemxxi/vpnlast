@@ -416,3 +416,104 @@ padding-left: 67px;
     color: #838385;
     font-family: var(--Poppins-Medium);
 }
+
+
+/* SLICK TESTI */
+
+/* Defines the width of the carousel and centers it on the page */
+.slick-carousel {
+    margin: 0 auto;
+    width: 1000px;
+  }
+  
+  /* The width of each slide */
+  .slick-slide {
+    width: 350px;
+  }
+  
+  /* Color of the arrows */
+  .slick-next::before, .slick-prev::before {
+    color: blue;
+  }
+
+
+
+
+
+/* Client */
+
+.client-content{
+    background: var(--Blue);
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 334px;
+    display: flex;
+    margin-right: 50px !important;
+    
+}
+.click-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.personal-info{
+    display: flex;
+    justify-content: center;
+}
+.client-description{
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    font-family: var(--Poppins-Regular);
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+}
+.client-name{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #272848;
+    font-family: var(--Poppins-SemiBold);
+    padding-right: 114px;
+
+}
+
+.testimonial__icon-star{
+    color: yellow;
+
+}
+
+.quote{
+    padding-top: 44px;
+}
+
+.slick-carousel{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*  */
+
+.content-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+/* demo */
+
+
+.wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  
