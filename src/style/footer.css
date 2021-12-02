@@ -1,0 +1,76 @@
+
+.footer{
+    background: #272848;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__left-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.apple{
+    margin-right: 35px;
+}
+.icons{
+    margin-top: 46px;
+    margin-bottom: 13px;
+}
+
+.footer__logo-img{
+    width: 147px;
+    padding-top: 64px;
+}
+.footer__left-description{
+    font-size: 10px;
+    line-height: 15px;
+    color: #F5F5F5;
+    font-family: var(--Poppins-Regular);
+    font-weight: 400;
+}
+
+
+.footer-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: var(--Poppins-Medium);
+    margin-bottom: 16px;
+}
+
+.footer-link{
+    font-size: 16px;
+    line-height: 27px;
+    color: #B1B1B1;
+    font-family: var(--Poppins-Medium);
+}
+
+.footer-link:hover{
+    color: var(--Blue);
+}
+
+.footer__content-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    padding-right: 64px;
+}
+
+.footer__copy{
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: var(--Poppins-Regular);
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    padding: 20px;
+}
