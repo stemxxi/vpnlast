@@ -70,7 +70,7 @@
         border-radius: 10px;
         flex-direction: column;
         align-items: center;
-        width: 195px;
+        width: 210px;
         display: flex;
         /* margin-right: 50px !important; */
     }
@@ -183,9 +183,17 @@
         border-radius: 10px;
         flex-direction: column;
         align-items: center;
-        width: 294px;
+        width: 220px;
         display: flex;
         margin-right: 50px !important;
+    }
+    .main__vpn-title {
+        font-size: 18px;
+        line-height: 31px;
+        color: #E63956;
+        font-family: var(--Poppins-Medium);
+        padding-top: 103px;
+        padding-bottom: 16px;
     }
     
 }
@@ -227,7 +235,7 @@
         padding-left: 0px;
     }
     .main__work-title{
-        font-size: 23px;
+        font-size: 18px;
     }
     .footer-title{
         margin-top: 33px;
@@ -291,9 +299,17 @@
         border-radius: 10px;
         flex-direction: column;
         align-items: center;
-        width: 182px;
+        width: 204px;
         display: flex;
         margin-right: 50px !important;
+    }
+    .main__vpn-title {
+        font-size: 18px;
+        line-height: 31px;
+        color: #E63956;
+        font-family: var(--Poppins-Medium);
+        padding-top: 103px;
+        padding-bottom: 16px;
     }
 
 }
